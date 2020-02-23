@@ -56,6 +56,9 @@ int allowwindowops = 0;
  */
 static double minlatency = 8;
 static double maxlatency = 33;
+/* frames per second st should at maximum draw to the screen */
+static unsigned int xfps = 1200;
+static unsigned int actionfps = 1200;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
